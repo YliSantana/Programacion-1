@@ -8,7 +8,7 @@ class Ejercicio1
         Console.WriteLine("Digite un número entero de dos dígitos:");
         int numero = Convert.ToInt32(Console.ReadLine());
 
-         Verificar si el número tiene dos dígitos
+         //Verificar si el número tiene dos dígitos
         if (numero > 9 && numero < 100 || numero < -9 && numero > -100)
         {
             int a = numero / 10;  // Primer dígito (decenas)
